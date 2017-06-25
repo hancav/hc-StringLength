@@ -16,11 +16,15 @@
          "echo Composer Install Job Complete ..."
        ],
        "startServer": "php -S localhost:7000",
-       "test1": "php index.php",
+       "runCMD": "php index.php",
+       "test1": [
+       "@composer install",
+       "@runCMD"
+       ],
        "test2": [
        "@composer install",
        "@startServer"
-     ]
+       ]
    },
     "authors": [
        {

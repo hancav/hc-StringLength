@@ -31,3 +31,4 @@ Utilities:
   - composer install
   - composer update
   - composer startServer (localhost:7000)
+  - composer runCMD (php index.php)
