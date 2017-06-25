@@ -1,12 +1,31 @@
 {
     "name": "hancav/hc-StringLength",
-    "description": "Basic class providing string length count",
+    "description": "Basic package class providing string length count",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "hcStringLength\\": "src/"
-        }
+        },
+        "files": ["src/functions.php"]
     },
     "require": {
       "php": ">5.4"
-    }
+    },
+    "scripts": {
+      "post-install-cmd": [
+         "echo Composer Install Job Complete ..."
+       ],
+       "startServer": "php -S localhost:7000",
+       "test2": "php index.php",
+       "test1": [
+       "@composer install",
+       "@test2"
+     ]
+   },
+    "authors": [
+       {
+           "name": "hancav",
+           "email": "hancav@mail.pt"
+       }
+   ]
 }
