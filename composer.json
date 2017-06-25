@@ -1,5 +1,5 @@
 {
-    "name": "hancav/hc-StringLength",
+    "name": "hancav/hc-string-length",
     "description": "Basic package class providing string length count",
     "type": "project",
     "autoload": {
