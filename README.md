@@ -19,8 +19,15 @@ Add 2:
   - $calclen is the value of strlen for $string
 
 To test:
-Run 1:
-  - php index.php (command line)
+Run 1 (command line):
+  - php index.php (or)
+  - composer test1
 
-Or run 2:
-  - php -S localhost:7000 (web browser)
+Run 2 (web browser):
+  - php -S localhost:7000 (or)
+  - composer test2
+
+Utilities:
+  - composer install
+  - composer update
+  - composer startServer (localhost:7000)
