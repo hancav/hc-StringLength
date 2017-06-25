@@ -1,0 +1,10 @@
+{
+    "name": "hancav/hc-StringLength",
+    "description": "Basic class providing string length count",
+    "autoload": {
+        "psr-4": {
+            "hcStringLength\\": "src/"
+        }
+    },
+    "require": {}
+}
